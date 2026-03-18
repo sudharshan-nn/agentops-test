@@ -34,6 +34,20 @@ readFile('path/to/your/file.txt')
     .catch(err => console.error(err));
 ```
 
+## File Writer Utility
+
+The project includes a file writer utility located at `src/utils/fileWriter.js`. This function allows you to write data to a specified file. It utilizes Node.js's `fs` module and handles errors gracefully using promises. Here's how you can use it:
+
+```javascript
+const { writeFile } = require('./src/utils/fileWriter');
+
+writeFile('path/to/your/file.txt', 'Your data here')
+    .then(() => console.log('File written successfully!'))
+    .catch(err => console.error('Error writing file:', err));
+```
+
+Make sure you have proper permissions to write to the file location specified.
+
 ## Contributing
 We welcome contributions! Please follow our contribution guidelines:
 1. Fork the repository.
