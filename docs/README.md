@@ -34,6 +34,18 @@ readFile('path/to/your/file.txt')
     .catch(err => console.error(err));
 ```
 
+## File Writer Utility
+
+The project includes a file writer utility that allows writing data to a specified file asynchronously. This utility function is found in `src/utils/fileWriter.js` and can be used like this:
+
+```javascript
+const { writeToFile } = require('./src/utils/fileWriter');
+
+writeToFile('path/to/your/file.txt', 'Hello, World!')
+    .then(() => console.log('File written successfully'))
+    .catch(err => console.error(err));
+```
+
 ## Contributing
 We welcome contributions! Please follow our contribution guidelines:
 1. Fork the repository.
