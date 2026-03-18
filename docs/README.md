@@ -34,6 +34,20 @@ readFile('path/to/your/file.txt')
     .catch(err => console.error(err));
 ```
 
+## Multiply Function
+
+The project includes a `multiply` function located in `src/utils/validators.js` that allows you to multiply two numbers. This function can handle integers, floating point numbers, as well as positive and negative numbers.
+
+### Example usage
+
+```javascript
+const { multiply } = require('./src/utils/validators');
+
+console.log(multiply(3, 4)); // Outputs: 12
+console.log(multiply(-3, 4)); // Outputs: -12
+console.log(multiply(0.1, 0.2)); // Outputs: 0.02
+```
+
 ## Contributing
 We welcome contributions! Please follow our contribution guidelines:
 1. Fork the repository.

@@ -8,6 +8,4 @@ function validateEmail(email) {
   return re.test(email);
 }
 
-module.exports = {
-  validateEmail,
-};
+module.exports = { validateEmail, multiply };
