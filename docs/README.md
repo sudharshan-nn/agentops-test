@@ -34,6 +34,24 @@ readFile('path/to/your/file.txt')
     .catch(err => console.error(err));
 ```
 
+## File Writer Utility
+
+The project also includes a file writer utility for writing data to files. This utility supports both overwriting and appending data to files. You can find it at `src/utils/fileWriter.js` and use it as follows:
+
+```javascript
+const { writeFile } = require('./src/utils/fileWriter');
+
+// Writing string data to a file
+writeFile('path/to/your/file.txt', 'Hello, World!', { append: false })
+    .then(() => console.log('Write successful'))
+    .catch(err => console.error(err));
+
+// Writing JSON data to a file
+writeFile('path/to/your/file.json', { key: 'value' }, { append: false })
+    .then(() => console.log('Write successful'))
+    .catch(err => console.error(err));
+```
+
 ## Contributing
 We welcome contributions! Please follow our contribution guidelines:
 1. Fork the repository.
