@@ -22,6 +22,17 @@ After installation, you can start using the project by running the following com
 $ npm start
 ```
 
+## Multiply Function
+
+The project provides a `multiply` function that can be used to multiply two numbers easily. This utility function is located at `src/utils/validators.js` and can be used as follows:
+
+```javascript
+const { multiply } = require('./src/utils/validators');
+
+const product = multiply(4, 5);
+console.log(product); // Outputs: 20
+```
+
 ## File Reader Utility
 
 The project comes with a file reader utility that helps in reading file contents asynchronously. This utility function is located at `src/utils/fileReader.js` and can be used as follows:
