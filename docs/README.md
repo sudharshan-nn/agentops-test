@@ -22,6 +22,18 @@ After installation, you can start using the project by running the following com
 $ npm start
 ```
 
+## File Reader Utility
+
+The project comes with a file reader utility that helps in reading file contents asynchronously. This utility function is located at `src/utils/fileReader.js` and can be used as follows:
+
+```javascript
+const { readFile } = require('./src/utils/fileReader');
+
+readFile('path/to/your/file.txt')
+    .then(content => console.log(content))
+    .catch(err => console.error(err));
+```
+
 ## Contributing
 We welcome contributions! Please follow our contribution guidelines:
 1. Fork the repository.
