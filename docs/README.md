@@ -23,7 +23,7 @@ $ npm start
 ```
 
 ## Contributing
-We welcome contributions! Please follow our contribution guidelines:
+We welcome contributions! Please follow our [CONTRIBUTING.md](../CONTRIBUTING.md) guidelines:
 1. Fork the repository.
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
