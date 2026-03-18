@@ -32,5 +32,8 @@ We welcome contributions! Please follow our contribution guidelines:
 
 Please make sure to update tests as appropriate.
 
+## Contributing
+For details on how to contribute, please refer to our [CONTRIBUTING.md](../CONTRIBUTING.md) file.
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more information.
