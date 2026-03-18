@@ -33,4 +33,4 @@ We welcome contributions! Please follow our contribution guidelines:
 Please make sure to update tests as appropriate.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project is licensed under the MIT License. The LICENSE file can be found at the root of the repository and includes all details regarding the license terms.
