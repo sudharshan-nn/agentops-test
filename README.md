@@ -42,4 +42,4 @@ This repository is used to test agent orchestration capabilities and development
 
 ## Contributing
 
-Please follow the established merge process and ensure all requirements are met before requesting a merge. 
+We welcome contributions! Please see the [CONTRIBUTING.md](./CONTRIBUTING.md) for more details on how to contribute to this project. It includes guidelines on code style, pull request protocols, and other important information for contributors. 
