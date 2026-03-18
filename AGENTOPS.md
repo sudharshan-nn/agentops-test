@@ -1,0 +1,4 @@
+  - This is a simple Node.js project
+  - Run tests with: npm test
+  - Always add JSDoc comments to new functions
+  - Put new docs in the docs/ folder
